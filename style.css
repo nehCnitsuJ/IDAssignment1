@@ -53,3 +53,9 @@ body {
   width: 50%;
   height: 220px;
 }
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 200px;
+}

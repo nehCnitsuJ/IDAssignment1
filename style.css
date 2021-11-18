@@ -70,7 +70,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 300px;
+  height: 250px;
   align-items: center;
   background-color: #633c60;
 }

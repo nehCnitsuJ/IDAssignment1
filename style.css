@@ -59,4 +59,5 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   height: 200px;
+  background-color: #d77374;
 }

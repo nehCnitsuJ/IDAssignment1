@@ -60,10 +60,9 @@ body {
   justify-content: space-evenly;
   height: 200px;
   background-color: #d77374;
+  align-items: center;
 }
 .box-6 {
-  margin: 0;
-  border: 0;
   width: 220px;
   height: 165px;
 }

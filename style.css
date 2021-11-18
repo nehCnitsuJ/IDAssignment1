@@ -71,7 +71,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   height: 300px;
-  align-items: center;
 }
 .box-7 {
   height: 220px;

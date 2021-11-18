@@ -73,3 +73,7 @@ body {
   height: 300px;
   align-items: center;
 }
+ul {
+  text-align: center;
+  list-style-position: inside;
+}

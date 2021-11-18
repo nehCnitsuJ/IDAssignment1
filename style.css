@@ -66,3 +66,10 @@ body {
   width: 220px;
   height: 165px;
 }
+.section3a-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}

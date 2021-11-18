@@ -70,6 +70,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: center;
   height: 300px;
   align-items: center;
 }

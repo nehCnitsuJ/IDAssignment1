@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 200px;
+  height: 300px;
 }
 .box-3 {
   height: 150px;

@@ -80,3 +80,9 @@ body {
   align-items: center;
   padding: 25px;
 }
+.forms-container {
+  display: flex;
+  height: 200px;
+  background-color: #fac492;
+  align-items: center;
+}

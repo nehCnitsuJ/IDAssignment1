@@ -77,4 +77,5 @@ body {
   display: flex;
   height: 250px;
   background-color: #fac492;
+  align-items: center;
 }

@@ -43,7 +43,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   height: 300px;
-  background-color: #ea8d5f;
+  background-color: #fac492;
   align-items: center;
 }
 .box-4 {
@@ -70,6 +70,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 250px;
+  align-items: center;
+}
+.section3b-container {
+  display: flex;
   height: 250px;
   align-items: center;
 }

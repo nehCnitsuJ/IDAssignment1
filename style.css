@@ -76,5 +76,5 @@ body {
 .section3b-container {
   display: flex;
   height: 250px;
-  align-items: center;
+  background-color: #fac492;
 }

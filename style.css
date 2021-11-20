@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 300px;
+  height: 350px;
   background-color: #fac492;
   align-items: center;
 }

@@ -9,6 +9,15 @@ p {
 }
 body {
   margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    #fac492,
+    #d77374,
+    white,
+    #fac492,
+    #beedf9
+  );
 }
 .aboutme-container {
   display: flex;

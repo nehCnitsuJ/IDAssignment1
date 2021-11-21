@@ -101,7 +101,7 @@ form {
 input,
 textarea {
   width: 100%;
-  padding: 0;
+  padding: 5px;
   border: 1px solid rgb(0, 0, 0);
   color: #0000;
   outline: 0;

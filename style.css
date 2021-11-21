@@ -96,6 +96,7 @@ form {
 }
 .input-group {
   margin-bottom: 30px;
+  position: relative;
 }
 input,
 textarea {
@@ -106,4 +107,13 @@ textarea {
   outline: 0;
   background: transparent;
   font-size: 16px;
+}
+label {
+  height: 100%;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  color: #0000;
+  cursor: text;
 }

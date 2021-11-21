@@ -83,13 +83,13 @@ body {
 .box-7 {
   margin: 50px;
 }
-.forms-container {
+/*.forms-container {
   display: flex;
   height: 400px;
   justify-content: center;
   background-color: #beedf9;
   align-items: center;
-}
+}*/
 form {
   width: 90%;
   max-width: 600px;

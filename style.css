@@ -79,6 +79,7 @@ body {
   background-color: #fac492;
   align-items: center;
   padding: 25px;
+  margin: 50px;
 }
 .forms-container {
   display: flex;

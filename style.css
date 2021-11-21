@@ -85,7 +85,7 @@ body {
 }
 .forms-container {
   display: flex;
-  height: 200px;
+  height: 400px;
   justify-content: center;
   background-color: #beedf9;
   align-items: center;

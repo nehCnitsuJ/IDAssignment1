@@ -82,6 +82,7 @@ body {
 }
 .box-7 {
   margin: 50px;
+  border: solid;
 }
 .forms-container {
   display: flex;

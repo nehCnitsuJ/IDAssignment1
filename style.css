@@ -144,3 +144,8 @@ textarea:valid ~ label {
 .displayrow .input-group {
   flex-basis: 48%;
 }
+.icon-container {
+  display: flex;
+  height: 100px;
+  color: black;
+}

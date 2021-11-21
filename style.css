@@ -92,5 +92,6 @@ body {
 }
 .box-8 {
   width: 250px;
-  height: 170px;
+  height: 300px;
+  border: solid;
 }

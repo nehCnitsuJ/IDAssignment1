@@ -120,6 +120,7 @@ label {
 button {
   padding: 10px 0;
   outline: none;
+  background: transparent;
   border: 1px solid #000000;
   width: 100%;
   cursor: pointer;

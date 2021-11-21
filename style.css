@@ -11,12 +11,12 @@ body {
   margin: 0;
   background-image: linear-gradient(
     to bottom,
-    white,
-    #fac492,
-    #d77374,
-    white,
-    #fac492,
-    #beedf9
+    white 25%,
+    #fac492 40%,
+    #d77374 50%,
+    white 60%,
+    #fac492 80%,
+    #beedf9 100%
   );
 }
 .aboutme-container {

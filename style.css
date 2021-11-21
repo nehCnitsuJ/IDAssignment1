@@ -126,7 +126,8 @@ button {
   width: 100%;
   cursor: pointer;
 }
-input:focus ~ label {
+input:focus ~ label,
+input:valid ~ label {
   top: -35px;
-  font-size: 14px;
+  font-size: 15px;
 }

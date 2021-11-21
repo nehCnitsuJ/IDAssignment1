@@ -133,3 +133,11 @@ textarea:valid ~ label {
   top: -35px;
   font-size: 15px;
 }
+.displayrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.displayrow .input-group {
+  flex-basis: 48%;
+}

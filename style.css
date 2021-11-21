@@ -117,3 +117,11 @@ label {
   color: #000000;
   cursor: text;
 }
+button {
+  padding: 10px 0;
+  color: #000000;
+  outline: none;
+  border: 1px solid #0000;
+  width: 100%;
+  cursor: pointer;
+}

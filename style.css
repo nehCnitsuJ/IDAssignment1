@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 h1 {
   font-size: 27px;
   margin: 0;
@@ -91,7 +87,7 @@ body {
   width: 100%;
   height: 100vh;
   justify-content: center;
-  background-color: #4e3171;
+  background-color: #beedf9;
   align-items: center;
 }
 form {
@@ -106,11 +102,11 @@ input,
 textarea {
   width: 100%;
   padding: 0;
-  border: 1px solid #0000;
+  border: 1px solid rgb(0, 0, 0);
   color: #0000;
   outline: 0;
   background: transparent;
-  font-size: 15px;
+  font-size: 16px;
 }
 label {
   height: 100%;
@@ -118,6 +114,6 @@ label {
   padding: 10px;
   top: 0;
   left: 0;
-  color: #0000;
+  color: #fff;
   cursor: text;
 }

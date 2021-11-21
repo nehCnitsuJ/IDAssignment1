@@ -101,8 +101,8 @@ input,
 textarea {
   width: 100%;
   padding: 0;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid rgb(0, 0, 0);
+  color: #0000;
   outline: 0;
   background: transparent;
   font-size: 16px;

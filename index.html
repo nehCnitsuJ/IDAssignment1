@@ -161,19 +161,31 @@
     <!-- Section 4 of wireframe - Contact me-->
     <h1 style = "background-color: #beedf9;"><center>Contact me!</center></h1>
     <section class = "forms-container">
-      <section class = "box-8">
-        <form action = "/someurl" method="get">
-          <!--Forms attributes -->
+      <form>
+        <!--Forms attributes -->
+        <section class = "input-group">
+          <input type = "text" id= "name" required><br><br>
           <label for = "name">Name:</label>
-          <input type = "text" placeholder = "Justin Chen" required><br><br>
+        </section>
 
+        <section class = "input-group">
+          <input type = "text" id= "number" required><br><br>
+          <label for = "number">Phone No:</label>
+        </section>
+        
+        <section class = "input-group">
+          <textarea id = "message" rows = "8"></textarea>
           <label for = "email">Email:</label>
-          <input type = "email"  placeholder = "justinchen@gmail.com" required><br><br>
+        </section>
 
-          <label for = "phoneno.">Phone:</label>
-          <input type = "tel" placeholder = "9876 5432" required><br><br>
-        </form>
-      </section>
+        <section class = "input-group">
+          <input type = "text" id= "name" required><br><br>
+          <label for = "message">Comments:</label>
+        </section>
+
+        <button type = "submit">Submit</button>
+
+      </form>
     </section>
     <!--<script src="script.js"></script>--> 
   </body>

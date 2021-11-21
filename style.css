@@ -11,11 +11,11 @@ body {
   margin: 0;
   background-image: linear-gradient(
     to bottom,
-    white 25%,
-    #fac492 40%,
-    #d77374 50%,
-    white 60%,
-    #fac492 80%,
+    white 50%,
+    #fac492 55%,
+    #d77374 65%,
+    white 70%,
+    #fac492 90%,
     #beedf9 100%
   );
 }

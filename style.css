@@ -184,5 +184,5 @@ textarea:valid ~ label {
   color: white;
   cursor: pointer;
   padding: 5px;
-  border-radius: 80%;
+  border-radius: 4px;
 }

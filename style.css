@@ -161,6 +161,7 @@ textarea:valid ~ label {
   display: flex;
   height: 100px;
   color: black;
+  align-items: center;
 }
 .box-8 {
   height: 100px;

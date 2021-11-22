@@ -26,7 +26,6 @@ body {
     to bottom,
     white 30%,
     #fac492 80%,
-    #d77374 89%,
     #beedf9 100%
   );
 }
@@ -105,7 +104,6 @@ body {
   height: 75vh;
   justify-content: center;
   align-items: center;
-  background-color: purple;
 }
 form {
   width: 90%;

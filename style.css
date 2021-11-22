@@ -7,6 +7,10 @@
   color: white;
   text-decoration: none;
 }
+#nav a:hover {
+  background-color: white;
+}
+
 h1 {
   font-size: 27px;
   margin: 0;

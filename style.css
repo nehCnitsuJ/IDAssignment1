@@ -161,6 +161,7 @@ textarea:valid ~ label {
   height: 100px;
   color: black;
   align-items: center;
+  justify-content: space-around;
 }
 .box-8 {
   height: 100px;

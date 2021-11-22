@@ -9,6 +9,7 @@
 }
 #nav a:hover {
   background-color: black;
+  background-size: 5%;
 }
 
 h1 {

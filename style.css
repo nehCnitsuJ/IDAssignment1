@@ -162,3 +162,6 @@ textarea:valid ~ label {
   height: 100px;
   color: black;
 }
+.box-8 {
+  height: 100px;
+}

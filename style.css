@@ -167,3 +167,6 @@ textarea:valid ~ label {
   width: 200px;
   align-items: center;
 }
+.box-8 a {
+  text-decoration: none;
+}

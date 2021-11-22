@@ -63,7 +63,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 240px;
+  height: 320px;
   align-items: center;
 }
 .box-6 {

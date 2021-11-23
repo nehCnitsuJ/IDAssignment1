@@ -18,6 +18,6 @@ function topFunction() {
 }
 function displaymessage()
 {
-  console.log("Thank you")
+  document.write("Thank you")
 }
 

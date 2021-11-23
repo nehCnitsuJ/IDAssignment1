@@ -107,9 +107,46 @@ body {
   height: 250px;
   align-items: center;
 }
-/*end css section for sect3a*/
+.section3a2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+  align-items: center;
+}
+.box-skill {
+  height: 400px;
+  width: 50%;
+}
+.skillbox {
+  width: 100%;
+}
+.skills {
+  text-align: right;
+  padding-top: 0;
+  padding-bottom: 10px;
+  color: white;
+}
 
-/*css section for sect3b*/
+.microsoft {
+  width: 80%;
+  background-color: #04aa6d;
+}
+.adobe {
+  width: 80%;
+  background-color: #2196f3;
+}
+.prglang {
+  width: 60%;
+  background-color: #f44336;
+}
+.weblang {
+  width: 60%;
+  background-color: #f44336;
+}
+/*end css section for sect3a - awards and skills*/
+
+/*css section for sect3b - career interests*/
 .section3b-container {
   display: flex;
   height: 150px;

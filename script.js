@@ -16,3 +16,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+function displaymessage()
+{
+  console.log("Thank you")
+}
+

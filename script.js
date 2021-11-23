@@ -18,7 +18,7 @@ function topFunction() {
 }
 function displaymessage()
 {
-  document.write("Thank you\n")
+  document.write("Thank you! \n")
   document.write("Refresh the page to go back")
 }
 

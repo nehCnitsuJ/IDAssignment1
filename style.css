@@ -124,24 +124,24 @@ body {
   text-align: right;
   padding-top: 0;
   padding-bottom: 10px;
-  color: black;
+  color: white;
 }
 
 .microsoft {
   width: 80%;
-  background-color: #beedf9;
+  background-color: #c74d48;
 }
 .adobe {
   width: 70%;
-  background-color: #beedf9;
+  background-color: #c74d48;
 }
 .prglang {
   width: 60%;
-  background-color: #beedf9;
+  background-color: #c74d48;
 }
 .weblang {
   width: 60%;
-  background-color: #beedf9;
+  background-color: #c74d48;
 }
 /*end css section for sect3a - awards and skills*/
 

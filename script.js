@@ -1,7 +1,7 @@
-//Get button:
-mybutton = document.getElementById("scrolltotop");
+//Get the button
+var mybutton = document.getElementById("myBtn");
 
-//when scroll down 30px, button is shown immediately
+// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -11,7 +11,9 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-// scroll to top functioon
+
+// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.documentElement.scrollTop = 0; 
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }

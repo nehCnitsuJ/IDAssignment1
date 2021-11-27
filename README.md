@@ -5,6 +5,7 @@ This project is made as part of assignment 1 - creating a resume. This website i
 
 For testing this is what I did:
 Navigation bar:
+
 1)Clicked on each individual section and see if it scrolls smoothly to the section on the website.
 
 Contact form:

@@ -380,11 +380,11 @@ body {
 }
 #nav a {
   margin: 45px;
-  color: black;
+  color: #beedf9;
   text-decoration: none;
 }
 #nav a:hover {
-  background-color: rgba(128, 128, 128, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 /*end of nav bar*/
 
@@ -589,3 +589,11 @@ textarea:valid ~ label {
   text-decoration: none;
 }
 /*end css section for footer*/
+#myBtn {
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-size: 18px; /* Increase font size */
+}

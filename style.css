@@ -349,251 +349,506 @@ template {
 [hidden] {
   display: none;
 }
-* {
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-h1 {
-  font-size: 27px;
-  margin: 0;
-}
-p {
-  font-size: 17px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-body {
-  margin: 0;
-  background-image: linear-gradient(
-    to bottom,
-    white 30%,
-    #fac492 80%,
-    #beedf9 100%
-  );
-}
-/*nav bar*/
-#nav {
-  position: absolute;
-  padding-top: 7%;
-}
-#nav a {
-  margin: 45px;
-  color: #beedf9;
-  text-decoration: none;
-}
-#nav a:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-/*end of nav bar*/
+/*Responsiveness for phone*/
+@media only screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    font-size: 27px;
+    margin: 0;
+  }
+  p {
+    font-size: 17px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  body {
+    margin: 0;
+    background-image: linear-gradient(
+      to bottom,
+      white 30%,
+      #fac492 80%,
+      #beedf9 100%
+    );
+  }
+  /*nav bar*/
+  #nav {
+    position: absolute;
+    padding-top: 7%;
+  }
+  #nav a {
+    margin: 45px;
+    color: #beedf9;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  /*end of nav bar*/
 
-/*css section for about me*/
-.aboutme-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 300px;
-  align-items: center;
-}
-.box-1 {
-  margin: 0;
-  border: 0;
-  box-shadow: 0 0 50px 10px grey;
+  /*css section for about me*/
+  .aboutme-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+  }
+  .box-1 {
+    margin: 0;
+    border: 0;
+    box-shadow: 0 0 50px 10px grey;
+  }
+
+  .box-2 {
+    height: 220px;
+    width: 50%;
+  }
+  /*end css section for about me*/
+
+  /*css section for ed hist*/
+  .education-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+  }
+  .box-3 {
+    height: 150px;
+    width: 200px;
+  }
+  /*end css section for ed hist*/
+
+  /*css section for work exp*/
+  .work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 325px;
+    align-items: center;
+  }
+  .box-4 {
+    margin: 0;
+    border: 0;
+  }
+  .box-5 {
+    width: 50%;
+    height: 220px;
+  }
+  /*end css section for work exp*/
+
+  /*css section for projects*/
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 320px;
+    align-items: center;
+  }
+  .box-6 {
+    width: 300px;
+    height: 300px;
+  }
+  /*end css section for projects*/
+
+  /*css section for sect3a*/
+  .section3a-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    align-items: center;
+  }
+  .section3a2-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+  }
+  .box-skill {
+    height: 400px;
+    width: 50%;
+  }
+  .skillbox {
+    width: 100%;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .microsoft {
+    width: 80%;
+    background-color: #c74d48;
+  }
+  .adobe {
+    width: 70%;
+    background-color: #c74d48;
+  }
+  .prglang {
+    width: 60%;
+    background-color: #c74d48;
+  }
+  .weblang {
+    width: 60%;
+    background-color: #c74d48;
+  }
+  /*end css section for sect3a - awards and skills*/
+
+  /*css section for sect3b - career interests*/
+  .section3b-container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    padding: 25px;
+  }
+  .box-7 {
+    margin: 50px;
+  }
+  /*end css section for sect3b*/
+
+  /*css section for contact me*/
+  .forms-container {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 90%;
+    max-width: 600px;
+  }
+  .input-group {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+  }
+  label {
+    height: 100%;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    cursor: text;
+    transition: 0.2s;
+  }
+  button {
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #000000;
+    width: 100%;
+    cursor: pointer;
+  }
+  input:focus ~ label,
+  input:valid ~ label,
+  textarea:focus ~ label,
+  textarea:valid ~ label {
+    top: -35px;
+    font-size: 15px;
+  }
+  .displayrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .displayrow .input-group {
+    flex-basis: 48%;
+  }
+  /*end css section for contact me*/
+
+  /*css section for footer*/
+  .icon-container {
+    display: flex;
+    height: 100px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .box-8 {
+    height: 100px;
+    width: 200px;
+    align-items: center;
+  }
+  .box-8 a {
+    text-decoration: none;
+  }
+  /*end css section for footer*/
+  #myBtn {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+  }
 }
 
-.box-2 {
-  height: 220px;
-  width: 50%;
-}
-/*end css section for about me*/
+/*responsivness for tablet and above*/
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    font-size: 27px;
+    margin: 0;
+  }
+  p {
+    font-size: 17px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  body {
+    margin: 0;
+    background-image: linear-gradient(
+      to bottom,
+      white 30%,
+      #fac492 80%,
+      #beedf9 100%
+    );
+  }
+  /*nav bar*/
+  #nav {
+    position: absolute;
+    padding-top: 7%;
+  }
+  #nav a {
+    margin: 45px;
+    color: #beedf9;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  /*end of nav bar*/
 
-/*css section for ed hist*/
-.education-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 300px;
-}
-.box-3 {
-  height: 150px;
-  width: 200px;
-}
-/*end css section for ed hist*/
+  /*css section for about me*/
+  .aboutme-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+  }
+  .box-1 {
+    margin: 0;
+    border: 0;
+    box-shadow: 0 0 50px 10px grey;
+  }
 
-/*css section for work exp*/
-.work-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 325px;
-  align-items: center;
-}
-.box-4 {
-  margin: 0;
-  border: 0;
-}
-.box-5 {
-  width: 50%;
-  height: 220px;
-}
-/*end css section for work exp*/
+  .box-2 {
+    height: 220px;
+    width: 50%;
+  }
+  /*end css section for about me*/
 
-/*css section for projects*/
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 320px;
-  align-items: center;
-}
-.box-6 {
-  width: 300px;
-  height: 300px;
-}
-/*end css section for projects*/
+  /*css section for ed hist*/
+  .education-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+  }
+  .box-3 {
+    height: 150px;
+    width: 200px;
+  }
+  /*end css section for ed hist*/
 
-/*css section for sect3a*/
-.section3a-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 250px;
-  align-items: center;
-}
-.section3a2-container {
-  display: flex;
-  justify-content: space-evenly;
-  height: 500px;
-  align-items: center;
-}
-.box-skill {
-  height: 400px;
-  width: 50%;
-}
-.skillbox {
-  width: 100%;
-}
-.skills {
-  text-align: right;
-  padding-top: 0;
-  padding-bottom: 10px;
-  color: white;
-}
+  /*css section for work exp*/
+  .work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 325px;
+    align-items: center;
+  }
+  .box-4 {
+    margin: 0;
+    border: 0;
+  }
+  .box-5 {
+    width: 50%;
+    height: 220px;
+  }
+  /*end css section for work exp*/
 
-.microsoft {
-  width: 80%;
-  background-color: #c74d48;
-}
-.adobe {
-  width: 70%;
-  background-color: #c74d48;
-}
-.prglang {
-  width: 60%;
-  background-color: #c74d48;
-}
-.weblang {
-  width: 60%;
-  background-color: #c74d48;
-}
-/*end css section for sect3a - awards and skills*/
+  /*css section for projects*/
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 320px;
+    align-items: center;
+  }
+  .box-6 {
+    width: 300px;
+    height: 300px;
+  }
+  /*end css section for projects*/
 
-/*css section for sect3b - career interests*/
-.section3b-container {
-  display: flex;
-  height: 150px;
-  align-items: center;
-  padding: 25px;
-}
-.box-7 {
-  margin: 50px;
-}
-/*end css section for sect3b*/
+  /*css section for sect3a*/
+  .section3a-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    align-items: center;
+  }
+  .section3a2-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+  }
+  .box-skill {
+    height: 400px;
+    width: 50%;
+  }
+  .skillbox {
+    width: 100%;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: white;
+  }
 
-/*css section for contact me*/
-.forms-container {
-  display: flex;
-  width: 100%;
-  height: 75vh;
-  justify-content: center;
-  align-items: center;
-}
-form {
-  width: 90%;
-  max-width: 600px;
-}
-.input-group {
-  margin-bottom: 30px;
-  position: relative;
-}
-input,
-textarea {
-  width: 100%;
-  padding: 5px;
-  border: 1px solid rgb(0, 0, 0);
-  color: black;
-  outline: 0;
-  background: transparent;
-  font-size: 16px;
-}
-label {
-  height: 100%;
-  position: absolute;
-  padding: 10px;
-  top: 0;
-  left: 0;
-  color: #000000;
-  cursor: text;
-  transition: 0.2s;
-}
-button {
-  padding: 10px 0;
-  outline: none;
-  background: transparent;
-  border: 1px solid #000000;
-  width: 100%;
-  cursor: pointer;
-}
-input:focus ~ label,
-input:valid ~ label,
-textarea:focus ~ label,
-textarea:valid ~ label {
-  top: -35px;
-  font-size: 15px;
-}
-.displayrow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.displayrow .input-group {
-  flex-basis: 48%;
-}
-/*end css section for contact me*/
+  .microsoft {
+    width: 80%;
+    background-color: #c74d48;
+  }
+  .adobe {
+    width: 70%;
+    background-color: #c74d48;
+  }
+  .prglang {
+    width: 60%;
+    background-color: #c74d48;
+  }
+  .weblang {
+    width: 60%;
+    background-color: #c74d48;
+  }
+  /*end css section for sect3a - awards and skills*/
 
-/*css section for footer*/
-.icon-container {
-  display: flex;
-  height: 100px;
-  color: black;
-  align-items: center;
-  justify-content: space-around;
-}
-.box-8 {
-  height: 100px;
-  width: 200px;
-  align-items: center;
-}
-.box-8 a {
-  text-decoration: none;
-}
-/*end css section for footer*/
-#myBtn {
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: transparent; /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  font-size: 18px; /* Increase font size */
+  /*css section for sect3b - career interests*/
+  .section3b-container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    padding: 25px;
+  }
+  .box-7 {
+    margin: 50px;
+  }
+  /*end css section for sect3b*/
+
+  /*css section for contact me*/
+  .forms-container {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 90%;
+    max-width: 600px;
+  }
+  .input-group {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+  }
+  label {
+    height: 100%;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    cursor: text;
+    transition: 0.2s;
+  }
+  button {
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #000000;
+    width: 100%;
+    cursor: pointer;
+  }
+  input:focus ~ label,
+  input:valid ~ label,
+  textarea:focus ~ label,
+  textarea:valid ~ label {
+    top: -35px;
+    font-size: 15px;
+  }
+  .displayrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .displayrow .input-group {
+    flex-basis: 48%;
+  }
+  /*end css section for contact me*/
+
+  /*css section for footer*/
+  .icon-container {
+    display: flex;
+    height: 100px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .box-8 {
+    height: 100px;
+    width: 200px;
+    align-items: center;
+  }
+  .box-8 a {
+    text-decoration: none;
+  }
+  /*end css section for footer*/
+  #myBtn {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+  }
 }

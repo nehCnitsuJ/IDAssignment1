@@ -886,6 +886,11 @@ template {
     color: white;
     background: black;
   }
+  .projects-container#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+  }
   /*end css section for projects*/
 
   /*css section for sect3a*/

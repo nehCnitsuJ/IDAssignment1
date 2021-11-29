@@ -558,18 +558,19 @@ template {
   .section3a-container {
     display: flex;
     justify-content: space-evenly;
-    height: 250px;
     align-items: center;
     text-align: center;
   }
+
+  h2.award-skill {
+    margin-top: 50px;
+  }
   .section3a2-container {
+    padding: 20px;
     display: flex;
-    justify-content: space-evenly;
-    height: 400px;
-    align-items: center;
+    justify-content: center;
   }
   .box-skill {
-    height: 400px;
     width: 50%;
   }
   .skillbox {

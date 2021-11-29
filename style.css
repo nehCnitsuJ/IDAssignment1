@@ -905,7 +905,7 @@ template {
     transition: 0.5s;
   }
   #popup.active {
-    top: 3%;
+    top: 1%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;

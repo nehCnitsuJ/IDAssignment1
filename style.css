@@ -357,9 +357,9 @@ template {
   html {
     scroll-behavior: smooth;
   }
-  h1 {
-    font-size: 27px;
-    margin: 0;
+  h2,
+  h3 {
+    text-align: center;
   }
   p {
     font-size: 17px;
@@ -481,8 +481,7 @@ template {
   /*css section for about me*/
   .aboutme-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     height: 300px;
     align-items: center;
   }
@@ -494,15 +493,14 @@ template {
 
   .box-2 {
     height: 220px;
-    width: 50%;
+    width: 100%;
   }
   /*end css section for about me*/
 
   /*css section for ed hist*/
   .education-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     height: 300px;
   }
   .box-3 {

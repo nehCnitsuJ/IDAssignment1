@@ -534,27 +534,60 @@ template {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 320px;
+    height: 400px;
     align-items: center;
   }
   .box-6 {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
+  .popupbutton a {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+  }
+  .projects-container#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+  }
+  #popup {
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  #popup.active {
+    top: 1%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
   /*end css section for projects*/
 
   /*css section for sect3a*/
   .section3a-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     height: 250px;
     align-items: center;
+    text-align: center;
   }
   .section3a2-container {
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+    height: 400px;
     align-items: center;
   }
   .box-skill {
@@ -638,11 +671,11 @@ template {
     transition: 0.2s;
   }
   button {
-    padding: 0px;
+    padding: 10px 0;
     outline: none;
     background: transparent;
     border: 1px solid #000000;
-    width: 10%;
+    width: 100%;
     cursor: pointer;
   }
   .formbutton {
@@ -694,7 +727,6 @@ template {
     font-size: 18px; /* Increase font size */
   }
 }
-
 /*responsivness for tablet and above*/
 @media only screen and (min-width: 768px) {
   * {

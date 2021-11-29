@@ -11,14 +11,20 @@
     <!-- SECTION 1 OF WIREFRAME -->
     <!--Header + navbar -->
     <header>
-      <nav id = "nav">
+      <nav class = "topnav" id = "mytopnav">
         <a href = "#about"> About Me</a>
         <a href = "#education"> Education History</a>
         <a href = "#work"> Work Experience</a>
-        <a href = "#projects"> Projects</a>
+        <nav class = "dropdown">
+          <button class = "dropbtn">Projects</button>
+          <nav class = "dropdown-content">
+            <a href = "https://small-projects-web.junrui-justinju.repl.co/">Small</a>
+            <a href = "https://medium-large-project-web.junrui-justinju.repl.co/">Medium-Large</a>
+          </nav>
         <a href = "#award-skill"> Awards & Skills</a>
         <a href = "#career"> Career</a>
         <a href = "#contact"> Contacts</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </nav>
       <img src = "img/bgheader1.jpg" style="width:100%;height: 50vh; object-fit:cover">
     </header>

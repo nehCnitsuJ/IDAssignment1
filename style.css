@@ -904,6 +904,12 @@ template {
     opacity: 0;
     transition: 0.5s;
   }
+  #popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
   /*end css section for projects*/
 
   /*css section for sect3a*/

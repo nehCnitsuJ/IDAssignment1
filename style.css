@@ -703,7 +703,8 @@ template {
   html {
     scroll-behavior: smooth;
   }
-  h2 {
+  h2,
+  h3 {
     text-align: center;
   }
   p {
@@ -870,12 +871,12 @@ template {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 320px;
+    height: 400px;
     align-items: center;
   }
   .box-6 {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
   /*end css section for projects*/
 

@@ -512,18 +512,11 @@ template {
   /*css section for work exp*/
   .work-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    height: 325px;
     align-items: center;
-  }
-  .box-4 {
-    margin: 0;
-    border: 0;
-  }
-  .box-5 {
-    width: 50%;
-    height: 220px;
+    padding: 10px;
+    text-align: center;
   }
   /*end css section for work exp*/
 

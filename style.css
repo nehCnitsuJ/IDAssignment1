@@ -886,6 +886,7 @@ template {
     justify-content: space-evenly;
     height: 250px;
     align-items: center;
+    text-align: center;
   }
   .section3a2-container {
     display: flex;

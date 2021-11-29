@@ -878,6 +878,14 @@ template {
     width: 300px;
     height: 400px;
   }
+  .popupbutton a {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+  }
   /*end css section for projects*/
 
   /*css section for sect3a*/

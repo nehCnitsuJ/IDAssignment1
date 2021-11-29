@@ -619,7 +619,7 @@ template {
   .forms-container {
     display: flex;
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     justify-content: center;
     align-items: center;
   }
@@ -630,6 +630,9 @@ template {
   .input-group {
     margin-bottom: 30px;
     position: relative;
+  }
+  .input-group input:not(#email) {
+    padding: 20px;
   }
   input,
   textarea {

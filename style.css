@@ -982,6 +982,12 @@ template {
     width: 100%;
     cursor: pointer;
   }
+  .formbutton {
+    height: 40px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
   input:focus ~ label,
   input:valid ~ label,
   textarea:focus ~ label,

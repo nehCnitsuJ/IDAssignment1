@@ -24,6 +24,10 @@ body {
   margin: 0;
 }
 
+.site-wrapper {
+  overflow: hidden;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -509,6 +513,18 @@ template {
   }
   /*end css section for ed hist*/
 
+  /*css section for work exp*/
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*end css section for work exp*/
+
   /*css section for projects*/
   .projects-container {
     display: flex;
@@ -552,6 +568,7 @@ template {
     opacity: 1;
     transition: 0.5s;
   }
+
   /*end css section for projects*/
 
   /*css section for sect3a*/
@@ -606,6 +623,7 @@ template {
     display: flex;
     align-items: center;
   }
+
   h2#career {
     margin-top: 50px;
     margin-bottom: 0;

@@ -891,6 +891,19 @@ template {
     pointer-events: none;
     user-select: none;
   }
+  #popup {
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
   /*end css section for projects*/
 
   /*css section for sect3a*/

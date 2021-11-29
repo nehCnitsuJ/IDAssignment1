@@ -891,7 +891,7 @@ template {
   .section3a2-container {
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+    height: 400px;
     align-items: center;
   }
   .box-skill {

@@ -505,11 +505,7 @@ template {
   .education-container {
     display: flex;
     flex-direction: column;
-    height: 300px;
-  }
-  .box-3 {
-    height: 150px;
-    width: 200px;
+    align-items: center;
   }
   /*end css section for ed hist*/
 

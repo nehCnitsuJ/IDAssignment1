@@ -604,12 +604,14 @@ template {
   /*css section for sect3b - career interests*/
   .section3b-container {
     display: flex;
-    height: 150px;
     align-items: center;
-    padding: 25px;
+  }
+  h2#career {
+    margin-top: 50px;
+    margin-bottom: 0;
   }
   .box-7 {
-    margin: 50px;
+    padding: 10px;
   }
   /*end css section for sect3b*/
 

@@ -882,7 +882,6 @@ template {
   /*css section for sect3a*/
   .section3a-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     height: 250px;
     align-items: center;

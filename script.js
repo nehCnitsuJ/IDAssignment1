@@ -7,6 +7,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+//nav function
 function myFunction() {
   var x = document.getElementById("mytopnav");
   if (x.className === "topnav") {
@@ -14,4 +15,10 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
+}
+
+//popup functions
+function toggle(){
+  var blur = document.getElementById('blur');
+  blur.classList.toggle('active')
 }

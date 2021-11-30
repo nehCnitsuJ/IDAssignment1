@@ -918,6 +918,9 @@ template {
     color: white;
     background: black;
   }
+  .popupbutton p {
+    text-align: center;
+  }
   .projects-container#blur.active {
     filter: blur(20px);
     pointer-events: none;
